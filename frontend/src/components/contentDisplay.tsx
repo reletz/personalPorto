@@ -9,7 +9,7 @@ const fileContents: Record<string, React.ReactNode | string> = {
   about: <div className="p-4 prose prose-invert max-w-none"><h2>About Me</h2><pre><code>console.log(&quot;Halo, ini Markdown!&quot;);</code></pre></div>,
   projectAlpha: <div className="p-4">Detail untuk <span className="text-green-400">Proyek Alpha</span>. Dibuat dengan React dan Node.js.</div>,
   projectBeta: <div className="p-4">Informasi mengenai <span className="text-green-400">Proyek Beta</span>. Sebuah aplikasi mobile menggunakan Flutter.</div>,
-  contact: <div className="p-4"><h3>Kontak Saya</h3><p>Hubungi aku di <a href="mailto:emailanda@example.com" className="text-blue-400 hover:underline">Apa hayo@example.com</a>.</p></div>,
+  contact: <div className="p-4"><h3>Kontak Saya</h3><p>Hubungi aku di <a href="mailto:WAWAWAWA@example.com" className="text-blue-400 hover:underline">Apa hayo@example.com</a>.</p></div>,
   readme: <div className="p-4 prose prose-invert max-w-none"><h2>README.md</h2><p>Ini adalah README utama untuk proyek portofolio.</p><ul><li>Next.js</li><li>Tailwind CSS</li><li>TypeScript</li></ul></div>,
   settings: <div className="p-4 font-mono text-sm whitespace-pre-wrap">{`{
   "editor.fontSize": 14,
