@@ -6,7 +6,7 @@ import { X } from 'lucide-react';
 
 const fileContents: Record<string, React.ReactNode | string> = {
   home: <div className="p-4">Selamat datang di <span className="text-yellow-400">home.tsx</span>!</div>,
-  about: <div className="p-4 prose prose-invert max-w-none"><h2>About Me</h2><pre><code>console.log("Halo, ini Markdown!");</code></pre></div>,
+  about: <div className="p-4 prose prose-invert max-w-none"><h2>About Me</h2><pre><code>console.log(&quotHalo, ini Markdown!&quot);</code></pre></div>,
   projectAlpha: <div className="p-4">Detail untuk <span className="text-green-400">Proyek Alpha</span>. Dibuat dengan React dan Node.js.</div>,
   projectBeta: <div className="p-4">Informasi mengenai <span className="text-green-400">Proyek Beta</span>. Sebuah aplikasi mobile menggunakan Flutter.</div>,
   contact: <div className="p-4"><h3>Kontak Saya</h3><p>Hubungi aku di <a href="mailto:emailanda@example.com" className="text-blue-400 hover:underline">emailanda@example.com</a>.</p></div>,
@@ -40,7 +40,7 @@ const ContentDisplay = () => {
     } else {
       // Jika konten untuk activeTabKey tidak ditemukan (seharusnya tidak terjadi jika key selalu valid)
       const activeTabName = openTabs.find(tab => tab.key === activeTabKey)?.name || activeTabKey;
-      contentToDisplay = <div className="p-4 text-orange-400">Konten untuk '{activeTabName}' belum didefinisikan.</div>;
+      contentToDisplay = <div className="p-4 text-orange-400">Konten untuk &apos{activeTabName}&apos belum didefinisikan.</div>;
     }
   } else {
     // Jika TIDAK ADA tab yang aktif (semua tab ditutup atau belum ada yang dibuka)

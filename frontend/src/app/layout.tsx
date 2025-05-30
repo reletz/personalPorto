@@ -4,7 +4,6 @@ import Header from "../components/header"; //
 import ActivityBar from "../components/activitybar"; //
 import Sidebar from "../components/sidebar"; //
 import ResizableWrapper from "../components/resizeableWrapper"; //
-import Footer from "../components/footer";
 import { AppProvider } from "../context/AppContext"; // Impor AppProvider
 import "./globals.css"; //
 
